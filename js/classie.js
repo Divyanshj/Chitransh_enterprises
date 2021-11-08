@@ -100,7 +100,7 @@ $(function() {
         items: 1,
       },
       992: {
-        items: 4,
+        items: 3,
       }
     }
   });
@@ -118,7 +118,7 @@ $(function() {
         items: 1,
       },
       992: {
-        items: 4,
+        items: 3,
       }
     }
   });
