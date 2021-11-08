@@ -105,3 +105,39 @@ $(function() {
     }
   });
 });
+$(function() {
+  $('.owl-carousel.testimonial-carousel-3').owlCarousel({
+    nav: false,
+    dots: false,
+    autoplay:true,
+    autoplayTimeout:1000,
+   autoplayHoverPause:true,
+   loop:true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      992: {
+        items: 4,
+      }
+    }
+  });
+});
+$(function() {
+  $('.owl-carousel.testimonial-carousel-2').owlCarousel({
+    nav: false,
+    dots: false,
+    autoplay:true,
+    autoplayTimeout:1000,
+   autoplayHoverPause:true,
+   loop:true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      992: {
+        items: 1,
+      }
+    }
+  });
+});
