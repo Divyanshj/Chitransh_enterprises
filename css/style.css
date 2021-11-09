@@ -319,8 +319,8 @@ a.learn_more2:hover{
 /* Services
 ---------------------------------*/
 
-#service{
-	padding:83px 0px;
+#service, #work_outer_1 , #work_outer , #contact{
+	padding:60px 0px;
 	}
 
 .service_area{
@@ -1398,4 +1398,7 @@ a.contact_btn:hover{
   width:100%;
   display: block;
   margin: 0 auto;
+}
+#about_us{
+  padding: 60px 0;
 }
