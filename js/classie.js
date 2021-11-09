@@ -128,8 +128,10 @@ $(function() {
     nav: false,
     dots: false,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:3000,
    autoplayHoverPause:true,
+   animateOut: 'fadeOut',
+      animateIn: 'fadeIn',
    loop:true,
     responsive: {
       0: {
@@ -141,3 +143,4 @@ $(function() {
     }
   });
 });
+// Initiate the wowjs
