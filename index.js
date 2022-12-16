@@ -42,4 +42,4 @@ app.get("/scannersoftware", function(req, res) {
 app.get("/scannerhardware", function(req, res) {
  res.render("scannerhardware");
 });
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
